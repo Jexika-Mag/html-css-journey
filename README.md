@@ -1,4 +1,4 @@
-# My HTML-CSS-journey
+# My HTML-CSS Journey
 
 *"Make the most of yourself by fanning the tiny, inner sparks of possibility into flames of achievement."* -Golda Meir
 
