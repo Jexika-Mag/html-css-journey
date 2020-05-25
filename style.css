@@ -30,6 +30,7 @@ header p {
 
 .fifty {
     display: inline-block;
+    vertical-align: top;
     width: 49%;
     overflow: hidden;
 }
@@ -37,14 +38,16 @@ header p {
 h1 {
     font-size: 4em;
     font-weight: bold;
-    color: white
+    color: white;
+    margin-bottom: 20px;
 }
 
 img {
     width: 300px; height: 300px;
-    padding: 30px 10px 0px 5px;
+    padding: 30px 10px 0px 2px;
     margin-left: 55%;
     margin-right: 0;
+ 
 }
 
 button {
@@ -57,7 +60,8 @@ button {
     font-weight: bold;
     padding: 15px 15px;
     width: 25%;
-    margin-top: 20px;
+    margin-top: 30px;
+  
 }
  
 h3 {
@@ -86,6 +90,7 @@ input {
     text-align: left;
     margin: 12px 0px 8px 0px;
     width: 50%;
+    border: 1px solid #CCCCCC;
 }
 
 #submitBtn {
@@ -137,10 +142,11 @@ footer {
     background-color: #333333;
     height: 20px;
     margin: 40px 40px 0px -40px;
-    padding: 20px 40px;
+    padding: 30px 40px;
   }
 
   footer p {
        text-align: center;
-       color:#EEEEEE
+       color:#EEEEEE;
+       font-size: 18px;
   }
