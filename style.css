@@ -13,15 +13,19 @@ body {
 
 header {
     background-color: #19628A;
-    color: #CCCCCC;
-    line-height: 1.5;
-    font-size: 18px;
+}
+
+header p {
+ color: #CCCCCC;
+    line-height: 1.7;
+    font-size: 24px;
+    width: 500px;
 }
 
 .container {
     width: 90%;
     margin: auto;
-    padding: 15px 0px;
+    padding: 50px 0px;
 }
 
 .fifty {
@@ -31,15 +35,15 @@ header {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 4em;
     font-weight: bold;
     color: white
 }
 
 img {
-    width: 222px; height: 222px;
+    width: 300px; height: 300px;
     padding: 30px 10px 0px 5px;
-    margin-left: 67%;
+    margin-left: 55%;
     margin-right: 0;
 }
 
@@ -47,12 +51,12 @@ button {
     background-color: #FD862F;
     border: none;
     color: white;
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
     cursor: pointer;
     font-weight: bold;
-    padding: 15px 0px;
-    width: 21%;
+    padding: 15px 15px;
+    width: 25%;
     margin-top: 20px;
 }
  
