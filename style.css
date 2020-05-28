@@ -11,17 +11,6 @@ body {
     min-height: 100vh;
 }
 
-header {
-    background-color: #19628A;
-}
-
-header p {
- color: #CCCCCC;
-    line-height: 1.7;
-    font-size: 24px;
-    width: 500px;
-}
-
 .container {
     width: 90%;
     margin: auto;
@@ -35,6 +24,46 @@ header p {
     overflow: hidden;
 }
 
+nav {
+    background-color: #19628A;
+    margin-bottom: -40px;
+}
+
+nav p {
+    color: #EEEEEE;
+    line-height: 1;
+    font-size: 28px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 80px;
+    padding: 0px;
+}
+
+nav a {
+    color: #CCCCCC;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+}
+
+header {
+    background-color: #19628A;
+}
+
+header p {
+    color: #CCCCCC;
+    line-height: 1.7;
+    font-size: 24px;
+    width: 500px;
+}
+
+
 h1 {
     font-size: 4em;
     font-weight: bold;
@@ -47,10 +76,9 @@ img {
     padding: 30px 10px 0px 2px;
     margin-left: 55%;
     margin-right: 0;
- 
 }
 
-button {
+header button {
     background-color: #FD862F;
     border: none;
     color: white;
@@ -63,8 +91,33 @@ button {
     margin-top: 30px;
   
 }
- 
-h3 {
+
+premain {
+    display: block;
+    background-color: #f5f5f5;
+    padding: 30px 0px;
+}
+
+premain h2 {
+    color: #333333;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+premain p {
+    color: #555555;
+    font-size: 24px;
+    padding: 30px 55px;
+}
+
+premain .fifty {
+    display: inline-block;
+    text-align: center;
+    width: 450px;
+    line-height: 1.7;
+}
+
+main h3 {
     color:#333333;
     font-size: 28px;
     font-weight: bolder;
