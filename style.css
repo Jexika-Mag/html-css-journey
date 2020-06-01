@@ -30,6 +30,10 @@ nav {
     width: 100%;
 }
 
+.nav-right {
+    text-align: right;
+}
+
 nav p {
     color: #EEEEEE;
     line-height: 1;
@@ -41,9 +45,9 @@ nav ul {
 }
 
 nav li {
-    display: inline-block;
+    display: inline;
     margin-right: 0px;
-    margin-left: 80px;
+    margin-left: 50px;
     padding: 0px;
 }
 
