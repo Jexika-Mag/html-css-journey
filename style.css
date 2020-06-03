@@ -210,3 +210,63 @@ footer {
        color:#EEEEEE;
        font-size: 18px;
   }
+
+.service-nav p {
+    line-height: 1;
+    font-size: 28px;
+    color: white;
+}
+
+.service-nav a {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.service-header {
+    background-color: #19628A;
+    text-align: center;
+}
+
+.service-header p {
+    color: white;
+    line-height: 1.7;
+    font-size: 26px;
+    width: 100%;
+}
+
+.service-header-first, .service-header-third {
+    color: #333333;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.service-header-first h2, .service-header-second h2, .service-header-third h2 {
+    font-size: 3em;
+}
+
+.service-header-first p, .service-header-second p, .service-header-third p {
+    font-size: 26px;
+    line-height: 1.7;
+    padding-top: 10px;
+}
+
+.service-header-first img, .service-header-third img {
+    margin-right: auto;
+    margin-left: 0;
+    width: 300px; height: 300px;
+}
+
+.service-header-second {
+    background-color: #f5f5f5;
+    color: #333333;
+    margin-right: auto;
+    margin-left: 0;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.service-header-second img {
+    width: 300px; height: 300px;
+}
