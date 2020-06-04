@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-    width: 90%;
+    width: 80%;
     margin: auto;
     padding: 50px 0px;
 }
@@ -80,7 +80,7 @@ h1 {
 img {
     width: 300px; height: 300px;
     padding: 30px 10px 0px 2px;
-    margin-left: 55%;
+    margin-left: 49%;
     margin-right: 0;
 }
 
@@ -227,12 +227,14 @@ footer {
 .service-header {
     background-color: #19628A;
     text-align: center;
+    width: 90%;
+    margin: auto;
 }
 
 .service-header p {
     color: white;
-    line-height: 1.7;
-    font-size: 26px;
+    line-height: 1.8;
+    font-size: 30px;
     width: 100%;
 }
 
@@ -243,16 +245,17 @@ footer {
 }
 
 .service-header-first h2, .service-header-second h2, .service-header-third h2 {
-    font-size: 3em;
+    font-size: 3.5em;
 }
 
 .service-header-first p, .service-header-second p, .service-header-third p {
-    font-size: 26px;
+    font-size: 28px;
     line-height: 1.7;
     padding-top: 10px;
 }
 
 .service-header-first img, .service-header-third img {
+    margin-top: 25%;
     margin-right: auto;
     margin-left: 0;
     width: 300px; height: 300px;
@@ -268,5 +271,22 @@ footer {
 }
 
 .service-header-second img {
+    margin-top: 25%;
+    margin-right: 0;
+    margin-left: 35px;
     width: 300px; height: 300px;
+}
+
+.thirty {
+    display: inline-block;
+    vertical-align: top;
+    width: 29%;
+    overflow: hidden;
+}
+
+.seventy {
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+    overflow: hidden;
 }
