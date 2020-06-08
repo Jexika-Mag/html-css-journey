@@ -244,17 +244,20 @@ footer {
     width: 100%;
 }
 
-.service-header-first h2, .service-header-second h2, .service-header-third h2 {
+.service-header-first h2, .service-header-third h2 {
     font-size: 3.5em;
+    padding-left: 50px;
 }
 
-.service-header-first p, .service-header-second p, .service-header-third p {
-    font-size: 28px;
+.service-header-first p, .service-header-third p {
+    font-size: 26px;
     line-height: 1.7;
     padding-top: 10px;
+    padding-left: 50px;
 }
 
 .service-header-first img, .service-header-third img {
+    padding-top: 0px;
     margin-top: 25%;
     margin-right: auto;
     margin-left: 0;
@@ -270,16 +273,28 @@ footer {
     width: 100%;
 }
 
+.service-header-second h2 {
+    font-size: 3.5em;
+}
+
+.service-header-second p {
+    font-size: 26px;
+    line-height: 1.7;
+    padding-top: 10px;
+    padding-right: 50px;
+}
+
 .service-header-second img {
+    padding-top: 0px;
     margin-top: 25%;
-    margin-right: 0;
+    margin-right: 0px;
     margin-left: 35px;
     width: 300px; height: 300px;
 }
 
 .thirty {
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
     width: 29%;
     overflow: hidden;
 }
