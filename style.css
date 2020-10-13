@@ -409,23 +409,41 @@ main h2 {
         margin: auto;
         width: 50px; height: 50px;
     }
-    premian p {
-        font-size: 8px;
+    premain {
+        padding: 0;
+    }
+    
+    premain h2 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    premain p {
+        font-size: 16px;
+        padding: 0;
+    }
+    
+    premain .fifty {
+        width: 90%;
+        line-height: 1.5;
     }
     main h3 {
         font-size: 18px;
+        padding-left: 15px;
+        margin-left: 0;
     }
     main h3.right {
-        margin-left: 0%;
+        margin-left: 0;
     }
     main form {
         margin: auto;
+        padding-left: 15px;
     }
     main input {
         font-size: 14px;
         padding: 12px 50px 10px 15px;
         margin: 5px 0px 10px 0px;
-        width: 49%;
+        width: 60%;
     }
     main #submitBtn {
         font-size: 14px;     
@@ -434,9 +452,8 @@ main h2 {
     }
     main table {
         font-size: 16px;
-        margin-left: 0;
+        margin-left: 15px;
         margin-right: auto;
-        width: 49%;
     }
 
     th {
@@ -448,7 +465,7 @@ main h2 {
     
       td {
         vertical-align: middle;
-        padding: 15px 30px;
+        padding: 15px 25px;
         border-bottom: 1px solid #AAAAAA;
         border-left: 1px solid #AAAAAA;
         border-right: 1px solid #AAAAAA;
@@ -549,7 +566,7 @@ main h2 {
     }
     header p {
         font-size: 18px;
-        line-height: 1.5;
+        line-height: 1.7;
         width: 80%;
     }
     header button {
@@ -559,11 +576,27 @@ main h2 {
         width: 20%;
     }
     header img {
-        margin: 0 0 15px 0;
-        width: 150px; height: 150px;
+        margin: 0 0 0 25px;
+        padding: 5px 0;
+        width: 200px; height: 200px;
     }
-    premian p {
-        font-size: 8px;
+    premain {
+        padding: 0;
+    }
+    
+    premain h2 {
+        font-size: 22px;
+        font-weight: bold;
+    }
+    
+    premain p {
+        font-size: 18px;
+    }
+    
+    premain .fifty {
+        width: 90%;
+        line-height: 1.5;
+        margin: 5px 50px 0 10px;
     }
     main h3 {
         font-size: 18px;
@@ -721,8 +754,24 @@ main h2 {
         padding: 10px 0;
         width: 250px; height: 250px;
     }
-    premian p {
-        font-size: 8px;
+    premain {
+        padding: 0;
+    }
+    
+    premain h2 {
+        font-size: 2em;
+        font-weight: bold;
+    }
+    
+    premain p {
+        font-size: 20px;
+    }
+    
+    premain .fifty {
+        width: 25%;
+        line-height: 1.5;
+        margin: 0px 5px;
+        padding: 10px 20px;
     }
     main h3 {
         font-size: 22px;
