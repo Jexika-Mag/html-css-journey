@@ -8,11 +8,10 @@ body {
     font-family: Roboto;
     margin: 0px;
     padding: 0;
-    min-height: 100vh;
 }
 
 .container {
-    width: 80%;
+    width: 90%;
     margin: auto;
     padding: 50px 0px;
 }
@@ -22,6 +21,7 @@ body {
     vertical-align: top;
     width: 49%;
     overflow: hidden;
+    border: 2px solid red;
 }
 
 nav {
@@ -214,11 +214,11 @@ footer {
 .service-nav p {
     line-height: 1;
     font-size: 28px;
-    color: white;
+    color: #CCCCCC;
 }
 
 .service-nav a {
-    color: white;
+    color: #CCCCCC;
     font-size: 24px;
     text-align: center;
     text-decoration: none;
@@ -335,6 +335,10 @@ main h2 {
     width: 70%;
 }
 
+.contact-main img {
+    width: 300px; height: 300px;
+}
+
 #send {
     background-color: #FD862F;
     border: 0;
@@ -350,4 +354,478 @@ main h2 {
 #msg {
     padding-bottom: 100px;
     border: 1px solid #AAAAAA;
+}
+
+/* For Mobile Phones*/
+@media only screen and (min-width: 375px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+    nav {
+        background-color: darkcyan;
+       
+    }
+    nav p {
+        font-size: 16px;
+    }
+    nav a {
+        font-size: 16px;
+    }
+    nav li {
+        margin-left: 10px;
+    }
+    div.service-nav p {
+        font-size: 16px;
+    }
+    div.service-nav a {
+        font-size: 16px;
+    }
+    header h1 {
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+    header p {
+        font-size: 14px;
+        line-height: 1.5;
+        width: 250px;
+    }
+    header button {
+        font-size: 12px;
+        padding: 5px 10px;
+        margin-top: 10px;
+        width: 15%;
+    }
+    header img {
+        margin: auto;
+        width: 50px; height: 50px;
+    }
+    premian p {
+        font-size: 8px;
+    }
+    main h3 {
+        font-size: 18px;
+    }
+    main h3.right {
+        margin-left: 0%;
+    }
+    main form {
+        margin: auto;
+    }
+    main input {
+        font-size: 14px;
+        padding: 12px 50px 10px 15px;
+        margin: 5px 0px 10px 0px;
+        width: 49%;
+    }
+    main #submitBtn {
+        font-size: 14px;     
+        padding: 10px 20px;
+        width: 20%;    
+    }
+    main table {
+        font-size: 16px;
+        margin-left: 0;
+        margin-right: auto;
+        width: 49%;
+    }
+
+    th {
+        padding: 15px;
+        border-bottom: 1px solid #AAAAAA;
+        border-left: 1px solid #AAAAAA;
+        border-right: 1px solid #AAAAAA;
+      }
+    
+      td {
+        vertical-align: middle;
+        padding: 15px 30px;
+        border-bottom: 1px solid #AAAAAA;
+        border-left: 1px solid #AAAAAA;
+        border-right: 1px solid #AAAAAA;
+      }
+      
+    div.contact-main h2 {
+        font-size: 16px;
+    }
+   
+    div.contact-main input {
+        font-size: 14px;
+        width: 49%;
+    }
+    div.contact-main #send {
+        font-size: 14px;
+        padding: 5px 10px;
+        width: 30%;
+    }
+    div.contact-main img {
+        margin: 0 15px;
+        width: 50px; height: 50px;
+    }
+    div.service-header p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    div.service-header-first img{
+        width: 70px; height: 70px;
+        border: 2px solid red;
+    }
+    div.service-header-first p{
+        font-size: 16px;
+        margin-right: 0;
+        padding-left: 0;
+        border: 2px solid red;
+    }
+    div.service-header-first h2{
+        font-size: 18px;
+    }
+    div.service-header-second p{
+        font-size: 16px;
+        padding-right: 0;
+        border: 2px solid red;
+    }
+    div.service-header-second h2{
+        font-size: 18px;
+    }
+    div.service-header-second img {
+        width: 70px; height: 70px;
+        margin-left: 0px;
+    }
+    div.service-header-third img{
+        width: 70px; height: 70px;
+    }
+    div.service-header-third h2{
+        font-size: 18px;
+    }
+    div.service-header-third p {
+        font-size: 16px;
+         margin-right: 0;
+        padding-left: 0;
+        border: 2px solid red;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .col-t-1 {width: 8.33%;}
+    .col-t-2 {width: 16.66%;}
+    .col-t-3 {width: 25%;}
+    .col-t-4 {width: 33.33%;}
+    .col-t-5 {width: 41.66%;}
+    .col-t-6 {width: 50%;}
+    .col-t-7 {width: 58.33%;}
+    .col-t-8 {width: 66.66%;}
+    .col-t-9 {width: 75%;}
+    .col-t-10 {width: 83.33%;}
+    .col-t-11 {width: 91.66%;}
+    .col-t-12 {width: 100%;}
+
+    nav {
+        background-color: rgb(145, 135, 4);
+    }
+    nav p {
+        font-size: 20px;
+    }
+    nav a {
+        font-size: 18px;
+    }
+    div.service-nav p {
+        font-size: 20px;
+    }
+    div.service-nav a {
+        font-size: 18px;
+    }
+    header h1 {
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+    header p {
+        font-size: 18px;
+        line-height: 1.5;
+        width: 80%;
+    }
+    header button {
+        font-size: 16px;
+        padding: 8px 12px;
+        margin-top: 10px;
+        width: 20%;
+    }
+    header img {
+        margin: 0 0 15px 0;
+        width: 150px; height: 150px;
+    }
+    premian p {
+        font-size: 8px;
+    }
+    main h3 {
+        font-size: 18px;
+    }
+    main h3.right {
+        margin-left: 0%;
+    }
+    main form {
+        margin: auto;
+    }
+    main input {
+        font-size: 14px;
+        padding: 12px 50px 10px 15px;
+        margin: 5px 0px 10px 0px;
+        width: 60%;
+    }
+    main #submitBtn {
+        font-size: 14px;     
+        padding: 10px 20px;
+        width: 25%;    
+    }
+    main table {
+        font-size: 16px;
+        margin-left: 0;
+        margin-right: auto;
+        width: 60%;
+    }
+
+    th {
+        padding: 15px;
+        border-bottom: 1px solid #AAAAAA;
+        border-left: 1px solid #AAAAAA;
+        border-right: 1px solid #AAAAAA;
+      }
+    
+      td {
+        vertical-align: middle;
+        padding: 15px 30px;
+        border-bottom: 1px solid #AAAAAA;
+        border-left: 1px solid #AAAAAA;
+        border-right: 1px solid #AAAAAA;
+      }
+      
+    div.contact-header h1 {
+        font-size: 2em;
+    }
+
+    div.contact-header p {
+        font-size: 20px;
+    }
+
+    div.contact-main h2 {
+        font-size: 20px;
+    }
+
+    div.contact-main input {
+        font-size: 16px;
+        width: 60%;
+    }
+    div.contact-main #send {
+        font-size: 16px;
+        padding: 10px;
+        width: 25%;
+    }
+    div.contact-main img {
+        margin-right: 0px;
+        margin-left: 10px;
+        width: 200px; height: 200px;
+    }
+
+    div.service-header h1 {
+        font-size: 2em;
+    }
+    div.service-header p {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    div.service-header-first img{
+        width: 150px; height: 150px;
+    }
+    div.service-header-first p{
+        font-size: 18px;
+    }
+    div.service-header-first h2{
+        font-size: 24px;
+    }
+    div.service-header-second p{
+        font-size: 18px;
+    }
+    div.service-header-second h2{
+        font-size: 24px;
+    }
+    div.service-header-second img {
+        width: 150px; height: 150px;
+        margin-left: 0px;
+    }
+    div.service-header-third img{
+        width: 150px; height: 150px;
+    }
+    div.service-header-third h2{
+        font-size: 24px;
+    }
+    div.service-header-third p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .col-l-1 {width: 8.33%;}
+    .col-l-2 {width: 16.66%;}
+    .col-l-3 {width: 25%;}
+    .col-l-4 {width: 33.33%;}
+    .col-l-5 {width: 41.66%;}
+    .col-l-6 {width: 50%;}
+    .col-l-7 {width: 58.33%;}
+    .col-l-8 {width: 66.66%;}
+    .col-l-9 {width: 75%;}
+    .col-l-10 {width: 83.33%;}
+    .col-l-11 {width: 91.66%;}
+    .col-l-12 {width: 100%;}
+
+    nav {
+        background-color: rgb(145, 1, 1);
+       
+    }
+    nav p {
+        font-size: 22px;
+    }
+    nav a {
+        font-size: 20px;
+    }
+    div.service-nav p {
+        font-size: 22px;
+    }
+    div.service-nav a {
+        font-size: 20px;
+    }
+    header h1 {
+        font-size: 4em;
+        margin-bottom: 10px;
+    }
+    header p {
+        font-size: 24px;
+        line-height: 1.5;
+        width: 85%;
+    }
+    header button {
+        font-size: 16px;
+        padding: 8px 12px;
+        margin-top: 10px;
+        width: 20%;
+    }
+    header img {
+        margin: 0 0 0 20px;
+        padding: 10px 0;
+        width: 250px; height: 250px;
+    }
+    premian p {
+        font-size: 8px;
+    }
+    main h3 {
+        font-size: 22px;
+    }
+    main h3.right {
+        margin-left: 0%;
+    }
+    main form {
+        margin: auto;
+    }
+    main input {
+        font-size: 18px;
+        padding: 12px 60px 10px 15px;
+        margin: 5px 0px 10px 0px;
+        width: 60%;
+    }
+    main #submitBtn {
+        font-size: 16px;     
+        padding: 10px 20px;
+        width: 30%;    
+    }
+    main table {
+        font-size: 18px;
+        margin-left: 0;
+        margin-right: auto;
+        width: 60%;
+    }
+
+    th {
+        padding: 15px;
+        border-bottom: 1px solid #AAAAAA;
+        border-left: 1px solid #AAAAAA;
+        border-right: 1px solid #AAAAAA;
+      }
+    
+      td {
+        vertical-align: middle;
+        padding: 15px 40px;
+        border-bottom: 1px solid #AAAAAA;
+        border-left: 1px solid #AAAAAA;
+        border-right: 1px solid #AAAAAA;
+      }
+      
+    div.contact-header h1 {
+        font-size: 3em;
+    }
+
+    div.contact-header p {
+        font-size: 22px;
+    }
+
+    div.contact-main h2 {
+        font-size: 22px;
+    }
+
+    div.contact-main input {
+        font-size: 18px;
+        width: 70%;
+    }
+    div.contact-main #send {
+        font-size: 16px;
+        padding: 10px;
+        width: 30%;
+    }
+    div.contact-main img {
+        margin-right: 0px;
+        margin-left: 15px;
+        width: 250px; height: 250px;
+    }
+
+    div.service-header h1 {
+        font-size: 3em;
+    }
+    div.service-header p {
+        font-size: 22px;
+        line-height: 1.5;
+    }
+    div.service-header-first img{
+        width: 200px; height: 200px;
+    }
+    div.service-header-first p{
+        font-size: 22px;
+    }
+    div.service-header-first h2{
+        font-size: 2em;
+    }
+    div.service-header-second p{
+        font-size: 22px;
+    }
+    div.service-header-second h2{
+        font-size: 2em;
+    }
+    div.service-header-second img {
+        width: 200px; height: 200px;
+        margin-left: 0px;
+    }
+    div.service-header-third img{
+        width: 200px; height: 200px;
+    }
+    div.service-header-third h2{
+        font-size: 2em;
+    }
+    div.service-header-third p {
+        font-size: 22px;
+    }
 }
