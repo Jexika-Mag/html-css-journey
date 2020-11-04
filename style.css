@@ -21,7 +21,6 @@ body {
     vertical-align: top;
     width: 49%;
     overflow: hidden;
-    border: 2px solid red;
 }
 
 nav {
@@ -358,9 +357,6 @@ main h2 {
 
 /* For Mobile Phones*/
 @media only screen and (max-width: 375px) {
-    nav {
-        background-color: rgb(134, 51, 93);
-    }
     .col-m-1 {width: 8.33%;}
     .col-m-2 {width: 16.66%;}
     .col-m-3 {width: 25%;}
@@ -494,13 +490,11 @@ main h2 {
     }
     div.service-header-first img{
         width: 70px; height: 70px;
-        border: 2px solid red;
     }
     div.service-header-first p{
         font-size: 14px;
         margin-right: 0;
         padding-left: 0;
-        border: 2px solid red;
     }
     div.service-header-first h2{
         font-size: 16px;
@@ -508,7 +502,6 @@ main h2 {
     div.service-header-second p{
         font-size: 14px;
         padding-right: 0;
-        border: 2px solid red;
     }
     div.service-header-second h2{
         font-size: 16px;
@@ -527,7 +520,6 @@ main h2 {
         font-size: 14px;
          margin-right: 0;
         padding-left: 0;
-        border: 2px solid red;
     }
 }
 
@@ -545,10 +537,6 @@ main h2 {
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
 
-    nav {
-        background-color: darkcyan;
-       
-    }
     nav p {
         font-size: 16px;
     }
@@ -668,13 +656,11 @@ main h2 {
     }
     div.service-header-first img{
         width: 70px; height: 70px;
-        border: 2px solid red;
     }
     div.service-header-first p{
         font-size: 16px;
         margin-right: 0;
         padding-left: 0;
-        border: 2px solid red;
     }
     div.service-header-first h2{
         font-size: 18px;
@@ -682,7 +668,6 @@ main h2 {
     div.service-header-second p{
         font-size: 16px;
         padding-right: 0;
-        border: 2px solid red;
     }
     div.service-header-second h2{
         font-size: 18px;
@@ -701,7 +686,6 @@ main h2 {
         font-size: 16px;
          margin-right: 0;
         padding-left: 0;
-        border: 2px solid red;
     }
 }
 
@@ -719,9 +703,6 @@ main h2 {
     .col-t-11 {width: 91.66%;}
     .col-t-12 {width: 100%;}
 
-    nav {
-        background-color: rgb(145, 135, 4);
-    }
     nav p {
         font-size: 20px;
     }
